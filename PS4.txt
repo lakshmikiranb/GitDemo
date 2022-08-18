@@ -1,0 +1,112 @@
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ ls
+GitDemo2/  README.md
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ ls --a
+ls: ambiguous option -- a
+Try 'ls --help' for more information.
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ ls -a
+./  ../  .git/  GitDemo2/  README.md
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ ls -a .git
+./              HEAD         fsmonitor--daemon/  info/     packed-refs
+../             config       hooks/              logs/     refs/
+COMMIT_EDITMSG  description  index               objects/
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/91837/Desktop/GitDemo/GitDemo/
+.git/
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ ls -a
+./  ../  .git/  GitDemo2/  README.md
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ pwd
+/c/Users/91837/Desktop/GitDemo/GitDemo
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ https://github.com/lakshmikiranb/GitDemo.git
+bash: https://github.com/lakshmikiranb/GitDemo.git: No such file or directory
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ cd
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ git branch conflictdemo
+fatal: not a git repository (or any of the parent directories): .git
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ ,git checkout conflictdemo
+bash: ,git: command not found
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{b462cf72-2135-11ec-b88b-ea5afd1ad476}.TM.blf
+ NTUSER.DAT{b462cf72-2135-11ec-b88b-ea5afd1ad476}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{b462cf72-2135-11ec-b88b-ea5afd1ad476}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ git add welcome.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ cat welcome.txt
+cat: welcome.txt: No such file or directory
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ git add GitDemo2
+fatal: not a git repository (or any of the parent directories): .git
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+91837@ADMINRG-905NFC1 MINGW64 ~
+$

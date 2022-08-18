@@ -1,0 +1,108 @@
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop (master)
+$ cd git
+bash: cd: git: No such file or directory
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop (master)
+$ cd git
+bash: cd: git: No such file or directory
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop (master)
+$ cd GitDemo
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo (master)
+$ git clone "https://github.com/lakshmikiranb/GitDemo.git"
+Cloning into 'GitDemo'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitDemo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo (master)
+$ cd GitDemo
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git log
+commit 1e250f14302e79b6d698f4b8b0c70198c1e3eb1c (HEAD -> main, origin/main, orig
+in/HEAD)
+Author: lakshmikiranb <111352316+lakshmikiranb@users.noreply.github.com>
+Date:   Wed Aug 17 18:12:51 2022 +0530
+
+    Create PS
+
+commit e999ba12f86564550c7695f0051efeed796c56a7
+Author: lakshmikiranb <111352316+lakshmikiranb@users.noreply.github.com>
+Date:   Wed Aug 17 17:00:48 2022 +0530
+
+    Initial commit
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git branch multiply
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git branch
+* main
+  multiply
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git checkout multiply
+Switched to branch 'multiply'
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (multiply)
+$ git add mul.cs
+fatal: pathspec 'mul.cs' did not match any files
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (multiply)
+$ git add mul.cs
+fatal: pathspec 'mul.cs' did not match any files
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (multiply)
+$ git commit -m "new file added"
+On branch multiply
+nothing to commit, working tree clean
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (multiply)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git branch
+* main
+  multiply
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (main)
+$ git checkout multiply
+Switched to branch 'multiply'
+
+91837@ADMINRG-905NFC1 MINGW64 ~/Desktop/GitDemo/GitDemo (multiply)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
