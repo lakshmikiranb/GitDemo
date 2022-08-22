@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class GFG
+class day5
 {
 
    
