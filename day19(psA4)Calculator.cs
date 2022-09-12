@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CustomAttributes
+{
+    internal class Calculator
+    {
+        // Square function   
+       public static void Main()
+    {
+        double x = 0;
+ 
+        // Input value positive Zero, Output
+        // square root of x
+        Console.WriteLine(Math.Sqrt(x));
+        double y = -0;
+ 
+        // Input value Negative Zero,
+        // Output square root of y
+        Console.Write(Math.Sqrt(y));
+        // Add two integers and returns the sum  
+        public int Add(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+        // Multiply two integers and retuns the result  
+        public int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        // Subtracts small number from big number  
+        public int Subtract(int num1, int num2)
+        {
+            if (num1 > num2)
+            {
+                return num1 - num2;
+            }
+
+            return num2 - num1;
+
+        }
+        //performing Division on two float variables.  
+        public float Division(float num1, float num2)
+        {
+            return num1 / num2;
+        }
+
+    }
+
+}
