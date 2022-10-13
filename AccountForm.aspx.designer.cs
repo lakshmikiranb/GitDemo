@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ServerSideStatedemo
+namespace MasterPagesDemo
 {
 
 
-    public partial class _Default
+    public partial class AccountForm
     {
     }
 }

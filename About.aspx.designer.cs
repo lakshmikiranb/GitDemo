@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CachingDemo
+namespace ServerSideStatedemo
 {
 
 

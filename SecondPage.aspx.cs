@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ServerSideStatedemo
+namespace ServerSideStateDemo
 {
-    public partial class _Default : Page
+    public partial class SecondPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = Session.SessionID.ToString();
+            Response.Write("Welcome " + Session["uname"].ToString());
         }
     }
 }

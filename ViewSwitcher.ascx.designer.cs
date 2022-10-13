@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CachingDemo {
+namespace MasterPagesDemo {
     
     
     public partial class ViewSwitcher {
